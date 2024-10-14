@@ -1,7 +1,7 @@
-var num = 0;
-while(num<5){
-    console.log('hello');
-    num = num + 1;
+var num = 0;//loop variable
+while(num<5){ // loop condition
+    console.log('hello');// loop statement
+    num = num + 1; // loop variable change
 // num += 1;//same process but different
 //num++;// same process but different
 }
