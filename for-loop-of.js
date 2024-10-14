@@ -17,3 +17,10 @@ In this code:
 - The `console.log(numbers);` statement outputs the entire array to the console.
 - The `for...of` loop iterates through each element (`num`) in the `numbers` array, and `console.log(num);` prints each element individually.
 
+
+const fruits = ['orange','mango','banana','apple'];
+console.log(fruits);
+for(const fruit of fruits){
+console.log(fruit);
+console.log('i want to eat');
+}
